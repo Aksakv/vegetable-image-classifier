@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    padding:0;
+
+    background:linear-gradient(
+        135deg,
+        #d4fc79,
+        #96e6a1
+    );
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    min-height:100vh;
+}
+
+.container{
+
+    width:700px;
+
+    margin:40px auto;
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0px 15px 40px rgba(0,0,0,0.25);
+
+}
+h1{
+    color:darkgreen;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:gray;
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+input[type=file]{
+    font-size:16px;
+}
+
+button{
+
+    background:#2E8B57;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 28px;
+
+    font-size:18px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+}
+
+button:hover{
+
+    background:#228B22;
+
+    transform:scale(1.05);
+
+}
+
+.result-section{
+    margin-top:30px;
+}
+
+img{
+    margin-top:20px;
+    border-radius:12px;
+    border:4px solid darkgreen;
+}
+
+.result{
+
+    animation:fadeIn 0.8s;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0px);
+
+    }
+
+}
+
+.result h2{
+    color:darkgreen;
+    margin-bottom:5px;
+}
+
+.result p{
+    font-size:22px;
+    font-weight:bold;
+    color:#333;
+}
+.progress{
+    width:100%;
+    background:#dddddd;
+    border-radius:30px;
+    overflow:hidden;
+    margin-top:10px;
+}
+
+.progress-bar{
+    height:30px;
+    background:linear-gradient(to right,#28a745,#8bc34a);
+    color:white;
+    font-weight:bold;
+    text-align:center;
+    line-height:30px;
+    transition:width 1s ease;
+}

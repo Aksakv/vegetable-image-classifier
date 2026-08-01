@@ -1,0 +1,9 @@
+venv/
+.vscode/
+__pycache__/
+*.pyc
+dataset/
+static/uploads/
+
+vegetable_classifier.keras
+*.pyc
